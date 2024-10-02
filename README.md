@@ -1,52 +1,69 @@
-# nestnet_algorithm_2024_2_beginner
-2024-2 네스트넷 알고리즘 스터디(브론즈 ~ 실버)
+# 0. nestnet_algorithm_2024_2_beginner
 
-<h2>
-  :man_technologist: 스터디 진행 방식 
-</h2>
+2024-2 네스트넷 알고리즘 스터디 (브론즈 ~ 실버)
 
-<h3><b>0. 문제 풀이 기간 </b> </h3>
-<b>매주 월 ~ 일</b>
+<b>
+스터디장 - 정한울
+</b>
 
 <br>
 
-<h3><b>1. 문제 선정 </b> </h3>
-<details>
-  <summary>자세히</summary>
-  <ul>
-    <li>매 주 금~일에 <a href="https://devjeong.com/algorithm/algorithm-1/">백준 문제 추천 사이트</a>에서 알고리즘 당 세 문제를 선정한다. (스터디장 주관)</li>
-    <li>문제 선정 후 <a href="https://www.acmicpc.net/group/workbook/18220">백준 23-2 네넷 알고리즘 스터디 그룹</a>에 주차+문제를 추가한다. (스터디장 or 도현 주관)</li>
-    <li>이슈를 작성한다. (스터디장 주관)</li>
-  </ul>
-</details>
+<h1>
+1. 스터디 소개
+</h1>
+충북대학교 학술동아리 네스트넷에서 진행하는 알고리즘 스터디로, 
+<b>git 입문</b>과 <b>PS 입문</b>을 목표로 함.
 
 <br>
 
-<h3><b>2. 문제 풀이 </b> </h3>
-<details>
-  <summary>자세히</summary>
-  <ul>
-    <li>폴더 구조 : 본인 이름 / week_해당 주 / Boj문제번호 이름으로 설정한 소스코드 <b>ex) KimSeongHo / week_1 / Boj1343.java</b> </li>
-    <li>30분 ~ 1시간 생각해도 방법이 떠오르지 않으면 구글에 검색 후 공부하여 문제를 푼다. </li>
-    <li>복잡한 부분이나 핵심 알고리즘에 주석을 단다.</li>
-  </ul>
-</details>
+문제 난이도: 백준 브론즈 ~ 실버
+
+<h2>1-1. 문제 선정 및</h2>
+
+[알고리즘 문제집](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)에서 하나의 주제 - 브론즈 2문제, 실버 2문제를 ❗매주 일요일❗에 선정.<br>
+선정된 문제는 [백준 그룹 문제집](https://www.acmicpc.net/group/workbook/18220)에서 확인.
+<br>
+
+
+<h2>1-2. 풀이 기간</h2>
+스터디원들은 해당 주차의 ❗월요일 ~ 토요일❗까지 문제를 풀어야함.
+
+### ❌주의사항
+개인사정으로 해당 주차 문제를 풀지 못할 시, 화요일까지 스터디장에게 알려야함.<br>
+화요일까지 알리지 않고 문제를 풀지 않은 경우, 해당 주차 불참으로 간주함.
+<br>
+
+불참 벌금: ❗10,000원❗
+<br>
+
+<h2>1-3. 진행 방식</h2>
+스터디는 온라인으로 진행되며, 매주 토요일까지 선정된 문제를 풀고, 각자의 레포지토리에 push한 후 PR을 보냄.<br>
+모든 문제 풀이 코드는 <b>깃허브</b>를 사용하여 관리.
 
 <br>
 
-<h3><b>3. 깃 관리 + Issue & PR(Pull Request) </b> </h3>
+<br>
+
+<h1>2. 깃 관리 + Issue & PR(Pull Request) </h1>
+
+<b>먼저 fork & Pull Request를 잘 모른다면 <a href="https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue">블로그 참고</a></b>
 <details>
-  <summary>자세히</summary>
-  ++참고 : 사진 클릭하면 잘보임
+  <summary>본문 보기</summary>
+
+  ### 사진은 클릭하면 잘 보임.
   <ol>
-    <li>프로젝트를 생성한다.</li>
+    <li>본인이 코드를 작성할 프로젝트 / 폴더 생성</li>
     <li>
-      Nestnet-study Organization의 nestnet_algorithm_2023_2 레포지토리를 fork 한다
-      <img src="https://github.com/Nestnet-study/nestnet_algorithm_2023_2/assets/81570533/d508321f-85e7-4e87-a9af-eba45c1a9f37", width=100%>
+      Nestnet-study Organization의 <a href="https://github.com/Nestnet-study/nestnet_algorithm_2024_2_beginner">nestnet_algorithm_2024_2_beginner
+</a> 레포지토리 fork
+      <img src="https://github.com/user-attachments/assets/02bf5dcb-bab6-4cf8-bd96-2fe554a7e8b3", width=100%>
     </li>
     <li>
-      fork 후에는 내 레포지토리가 생기는데, organization의 레포지토리는 "organization 이름 / 레포지토리 이름" 인데, 내 레포지토리는 "아이디 / 레포지토리 이름" 인 것을 확인할 수 있다. 해당 레포지토리를 clone한다. 
-      <img src="https://github.com/Nestnet-study/nestnet_algorithm_2023_2/assets/81570533/1eb7b8b0-c360-46a4-b922-2098b6200048", width=100%>
+      fork 후에는 내 깃허브 레포지토리가 생김. <br>
+      - organization의 레포지토리 : "Nestnet-study / nestnet_algorithm_2024_2_beginner" <br>
+      - 내 레포지토리 : "본인 아이디 / nestnet_algorithm_2024_2_beginner" <br>
+      내 레포지토리를 git clone.
+      <img src="https://github.com/user-attachments/assets/2a04f1fd-d79a-49f4-b78d-d612e4726227", width=100%>
     </li>
     <li>
       프로젝트를 생성하고 적절한 위치에서 "git clone 레포지토리" 를 해준다. 내 경우, C:\InteliJ_workspace\2023-nestnet-algo\src\ 하위에서 clone을 해주었다.(java) <br>
@@ -87,4 +104,4 @@
   <img src="https://github.com/Nestnet-study/nestnet_algorithm_2023_2/assets/81570533/6637504b-45f8-4ead-ac83-c74a67dee8e3", width=100%>
 </details>
 
-<b>+ 다른 사람 레포지토리 fork & Pull Request를 통한 협업에 대해 잘 모르겠다면? <a href="https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B9%83%ED%97%99-PRPull-Request-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95-folk-issue">Click!!!</a></b>
+
