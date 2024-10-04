@@ -111,11 +111,25 @@
       <img src="https://github.com/user-attachments/assets/42aed2c4-f866-430b-8b39-e739e09da068", width=100%>
     </li>
     <li>
-      내용 추가 예정
+      반드시 PR 제목은 <b>[n주차] 이름</b> <br>
+      ex) [1주차] 정한울
+      <img src="https://github.com/user-attachments/assets/6b51b37b-bf33-4032-874d-5c8f6952cc85", width=100%> <br>
+      본문은 세팅되어 있는 템플릿에 맞춰 작성. 작성 완료 후 Create pull request 클릭
+      <img src="https://github.com/user-attachments/assets/177b9642-b6ee-4ac3-a6bd-1e2141daa051", width=100%>
     </li>
   </ol>
 </details>
 
 <br>
 
-<h2>2-1. 내용 추가 예정</h2>
+<h2>2-1. 문제 풀이 및 PR 작성 완료 후</h2>
+다른 사람들이 작성한 PR을 확인하면서 풀이 방법을 비교해보고, 댓글을 통해 다양하게 피드백
+
+![image](https://github.com/user-attachments/assets/e670799a-fd4f-4ae9-87d0-f4375d4ad629)
+
+### ❌주의사항
+PR을 제출하기 전에 본인 레포지토리에서 Sync fork를 통해 동기화 해줄 것.
+
+![image](https://github.com/user-attachments/assets/77e3367c-4c28-48aa-b463-791f3a2d9639)
+### 깃허브와 관련한 문제가 발생할 경우 스터디장에서 문의.
+
