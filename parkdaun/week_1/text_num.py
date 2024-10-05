@@ -6,7 +6,7 @@ from collections import Counter
 #입력 단어 모두 대문자로 변환 -> 대소문자를 따로 구분하기 때문
 text = input().upper()
 
-#알파벳 빈도 계싼
+#알파벳 빈도 계산
 counter = Counter(text)
 
 #가장 많이 사용된 알파벳과 빈도 찾기
