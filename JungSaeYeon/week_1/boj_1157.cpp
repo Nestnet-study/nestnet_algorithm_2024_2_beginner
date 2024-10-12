@@ -1,4 +1,4 @@
-// 1157번 단어 정리
+// 1157번 단어 정리.
 #include <iostream>
 #include <queue>
 #include <stack>
