@@ -27,4 +27,3 @@ public class boj_2292 {
         scanner.close();
     }
 }
-`:
