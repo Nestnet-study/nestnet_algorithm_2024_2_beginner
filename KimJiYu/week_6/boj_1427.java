@@ -1,4 +1,4 @@
-package nestnet_algorithm_2024_2_beginner.KimJiYu.week_6;
+package org.example.nestnet_algorithm_2024_2_beginner.KimJiYu.week_6;
 
 import java.io.BufferedReader;
 import java.io.IOException;
