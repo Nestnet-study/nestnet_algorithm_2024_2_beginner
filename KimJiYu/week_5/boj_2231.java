@@ -21,7 +21,7 @@ public class boj_2231 {
                 num /= 10;
             }
 
-            //분해합이 n과 같은지 확인 i가
+            //분해합이 n과 같은지 확인
             if (sum == n) {
                 result = i; //생성자
                 break;
